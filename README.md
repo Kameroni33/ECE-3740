@@ -1,2 +1,2 @@
-# ECE-3740
-System Engineering Principles
+# System Engineering Principles
+This repository contains my work for ECE 3740: Sysmtem Engineering Principles, taken at the University of Manitoba, 2023. All content and code provided by the course is protected under copywrite laws, while all additions to the content being of my own design and personal intellectual property. I've made this repository public as a reference for anyone to view; however, no portion of this content may reproduced in any context without written consent by Ken Ferens on behalf of the University of Manitoba and myself, Kameron Ronald.
