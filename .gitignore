@@ -1,0 +1,12 @@
+# C build files
+build/
+debug/
+dist/
+
+# MPLab X IDE folders
+nbproject/
+.generated_files/
+
+# Other ignored file types
+*.log
+*.log.inx
