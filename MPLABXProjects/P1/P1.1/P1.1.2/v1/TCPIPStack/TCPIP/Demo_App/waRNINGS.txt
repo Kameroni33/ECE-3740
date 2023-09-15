@@ -1,9 +1,0 @@
-"C:\Program Files (x86)\Microchip\xc32Microchip\xc32\v4.30\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=32MX795F512L  -DCFG_INCLUDE_PIC32_ETH_SK_ETH795 -D_SUPPRESS_PLIB_WARNING -D_DISABLE_OPENADC10_CONFIGPORT_WARNING -I".." -I"../../Microchip/Include" -I"../../../Microchip/Include" -I"../../../Microchip/Include/TCPIP Stack" -I"../Configs" -Wall -MMD -MF "build/default/production/_ext/1472/LEDTCPServer.o.d" -o build/default/production/_ext/1472/LEDTCPServer.o ../LEDTCPServer.c    -DXPRJ_default=default  -no-legacy-libc    -mdfp="C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC32MX_DFP/1.3.231"  
-../MainDemo.c: In function 'InitAppConfig':
-In file included from ../../../Microchip/Include/TCPIP_Stack/TCPIP.h:57,
-                 from ../MainDemo.c:63:
-../../../Microchip/Include/Compiler.h:147:31: warning: 'memcpy' forming offset [6, 16] is out of the bounds [0, 5] [-Warray-bounds]
-  #define memcpypgm2ram(a,b,c) memcpy(a,b,c)
-                               ^~~~~~~~~~~~~
-../MainDemo.c:1189:3: note: in expansion of macro 'memcpypgm2ram'
-   memcpypgm2ram(AppConfig.NetBIOSName, (ROM void*)MY_DEFAULT_HOST_NAME, 16);
